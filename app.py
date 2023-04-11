@@ -13,7 +13,7 @@ cors = CORS(app) # Colocar no app o CORS
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 # enable debugging mode
-app.config["DEBUG"] = True
+app.config["DEBUG"] = False
 
 # Upload folder
 UPLOAD_FOLDER = 'static/files'
@@ -328,4 +328,4 @@ def model():
     return jsonify(model)
 
 
-app.run()
+#app.run()

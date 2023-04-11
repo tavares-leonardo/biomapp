@@ -1,0 +1,7 @@
+Flask
+Gunicorn
+flask-cors
+numpy
+pandas
+scikit-learn
+werkzeug
